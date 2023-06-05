@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://f1pfxk6wib0y"]
+
+[ext_resource type="Script" path="res://file_dialog_example.gd" id="1_231fb"]
+
+[node name="FileDialogExample" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_231fb")
+
+[node name="FileDialogExample" type="FileDialog" parent="."]
+initial_position = 2
+size = Vector2i(392, 162)
